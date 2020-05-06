@@ -21,7 +21,7 @@ public class BreakTest06 {
 					System.out.println("프로그램을 종료합니다.");
 					break;
 				}else if(!(1<=menu&&menu<=3)) {
-					System.out.print("메뉴를 잘못 선택했습니다.(종료:0)");
+					System.out.print("메뉴를 잘못 선택했습니다.(종료:0)\n");
 					continue;//아래 문장을 실행 안함
 				}
 				

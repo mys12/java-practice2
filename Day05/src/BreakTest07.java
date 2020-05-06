@@ -8,7 +8,7 @@ public class BreakTest07 {
 		 * 출력하고, 주사위번호중 6이 발생했을때 무한 루프문을 중단시키는 코드를 작성
 		 */
 		while(true) {
-			int ran1 = (int)(Math.random()*6+1);
+			int ran1 = (int)(Math.random()*6)+1;
 			System.out.println("주사위 번호 " + ran1 + "이(가) 나왔습니다.");
 			System.out.println();
 			if(ran1==6) {
