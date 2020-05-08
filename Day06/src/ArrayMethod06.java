@@ -8,7 +8,7 @@ public class ArrayMethod06 {
 		
 		//일반 이중 for 반복문으로 일괄적으로 배열원소값 출력
 		for(int i=0; i<score.length; i++) { //score.length는 행의 길이 2
-			for(int j=0;j<score.length; j++) {
+			for(int j=0;j<score[i].length; j++) {
 				System.out.println("score["+i+"]"+"["+j+"] : "+score[i][j]);
 			}
 		}
