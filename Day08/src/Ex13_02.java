@@ -30,6 +30,7 @@ public class Ex13_02 {
 		System.out.println(p1.name+", "+p1.price);
 		System.out.println(p2.name+", "+p2.price);
 		System.out.println(p3.name+", "+p3.price);
+		System.out.println(p4.name+", "+p4.price);
 		
 	
 	}
