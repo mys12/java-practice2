@@ -33,7 +33,7 @@ public class ConsTest04 {
 	public static void main(String[] args) {
 
 		Car03 myCar = new Car03();
-		myCar.setGas(0);//가스 주입
+		myCar.setGas(5);//가스 주입
 		boolean re= myCar.isLeftGas();//가스가 있다면 true, 없다면 false
 		if(re==true) {
 			System.out.println("출발합니다.");
