@@ -17,7 +17,7 @@ class Animal{
 public class Ex13_01 {
 
 	public static void main(String[] args) {
-		Animal a1=new Animal("원숭이", 26);
+		Animal a1 = new Animal("원숭이", 26);
 		a1.show();
 
 	}
