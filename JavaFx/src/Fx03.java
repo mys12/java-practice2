@@ -8,7 +8,7 @@ public class Fx03 extends Application {
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		Parent root = FXMLLoader.load(getClass().getResource("root_03.xml"));
+		Parent root = FXMLLoader.load(getClass().getResource("root_08.xml"));
 		//xml파일을 읽어들임
 		Scene scene = new Scene(root);//장면객체 생성
 		
