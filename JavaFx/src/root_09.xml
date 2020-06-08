@@ -16,7 +16,7 @@
 		<HBox alignment="CENTER" prefHeight="100.0" prefWidth="400.0"
 			spacing="10">
 			<children>
-				<VBox alignment="CENTER_LEFT" prefHeigth="100.0"
+				<VBox alignment="CENTER_LEFT" prefHeight="100.0"
 					prefWidth="100.0" spacing="20.0">
 					<CheckBox fx:id="chk1" onAction="#handleChkAction"
 						text="안경" />
@@ -36,14 +36,14 @@
 
 				<Separator orientation="VERTICAL" prefHeight="100.0" />
 				<!-- 수직으로 100높이 만큼 분리선이 만들어진다. -->
-				<VBox alignment="CENTER_LEFT" prefHeigth="100" prefWidth="150"
+				<VBox alignment="CENTER_LEFT" prefHeight="100" prefWidth="150"
 					spacing="20.0">
 					<children>
 						<RadioButton fx:id="rad1" text="BubbleChart"
 							userData="BubbleChart">
 							<!-- RadioButton은 동그라미 버튼을 만들고, userData 속성값은 자바바프로그램에서 처리할 데이터 -->
 							<toggleGroup>
-								<ToggleGroup fx:id="gruop" />
+								<ToggleGroup fx:id="group" />
 							</toggleGroup><!-- RadioButton을 토글 그룹으로 묶어야 동그라미버튼을 단하나만 선택하는 효과가 
 								난다 -->
 						</RadioButton>
@@ -51,14 +51,14 @@
 							text="BarChart" toggleGroup="$group" userData="BarChart" />
 						<!-- selected="true"로 설정되면 두번째 라디오 버튼이 미리 선택됨. toggleGroup 속성값 $group으로 
 							토글그룹 fx:id="group"명을 참조하면 RadioButton이 토글 그룹으로 묶어져서 단하나만 선택 가능하게 한다. toggleGroup="$groupName" -->
-						<RadioButton fx:id="rad3" text="AreaChar"
+						<RadioButton fx:id="rad3" text="AreaChart"
 							toggleGroup="$group" userData="AreaChart" />
 					</children>
 				</VBox>
 				<ImageView fx:id="radioImageView" fitWidth="100.0"
 					preserveRatio="true">
 					<image>
-						<Image url="@images/BarChar.png" />
+						<Image url="@images/BarChart.png" />
 					</image>
 				</ImageView>
 			</children>
@@ -74,7 +74,7 @@
 				</image>
 				</ImageView>
 			</graphic>
-			<BoarderPane.margin><Insets top="20.0"/></BoarderPane.margin>
+			<BorderPane.margin><Insets top="20.0"/></BorderPane.margin>
 			<!-- 버튼 위 바깥 여백을 설정 -->
 		</Button>
 	</bottom>
