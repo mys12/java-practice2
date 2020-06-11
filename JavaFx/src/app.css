@@ -1,0 +1,11 @@
+Label{
+	-fx-padding:5;
+}
+#id01{/* 아이디 선택자 */
+	-fx-background-color:black;
+	-fx-text-fill:yellow;
+}
+.idClass{/*클래스 선택자*/	
+	-fx-background-color:blue;
+	-fx-text-fill:white;
+}
