@@ -8,9 +8,9 @@ public class Fx06 extends Application {
 
 	@Override
 	public void start(Stage stage) throws Exception {
-		Parent parent=(Parent)FXMLLoader.load(getClass().getResource("root4.xml"));
+		Parent parent=(Parent)FXMLLoader.load(getClass().getResource("root_20.xml"));
 		Scene scene=new Scene(parent);//장면생성
-		scene.getStylesheets().add(getClass().getResource("app.css").toString());
+		scene.getStylesheets().add(getClass().getResource("app5.css").toString());
 		//장면에 css적용
 		
 		stage.setTitle("외부 스타일 적용");//무대 윈도우 제목설정
