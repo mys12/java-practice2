@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> </title>
+<style>
+/* 문제) 각 id 선택자로 절대 위치로 첫번째 box1은 top:0px; left:0px; 두번째 box2는 top:30px; left:30px;
+세번째 box3은 top:60px, left:60px;로 위치하고, 공통으로 너비가 100픽셀, 높이가 100픽셀, 배경색이 파랑,노랑, 연두색인 3개의 div를 그려보자.*/
+div{
+position: absolute;
+width: 100px;
+height: 100px;
+
+}
+#box1 {
+top: 0px;
+left: 0px;
+background-color: blue;
+z-index: 200; /* z-index 속성값이 클수록 앞쪽에 배치 */
+}
+#box2{
+top: 30px;
+left: 30px;
+background-color: yellow;
+z-index: 100;
+}
+#box3{
+top: 60px;
+left: 60px;
+background-color: green;
+z-index: 0;
+}
+</style>
+</head>
+<body>
+<div id="box1">box #1</div>
+<div id="box2">box #2</div>
+<div id="box3">box #3</div>
+</body>
+</html>
