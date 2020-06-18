@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* welcome.jsp ui */
+/* 서브 메인 이미지 */
+
+#sub_img_center{
+	width:971px;
+	height:179px;
+	background-image:url(../images/center/sub_back.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+#notice{
+	width: 670px; border-collapse: collapse;
+}
+#notice th{
+	height: 20px;
+	text-transform: capitalize; /*영문 첫글자를 대문자로 */
+	font-size: 14px; font-weight: bold;/*글자 진하게*/
+	padding:5px; text-align: center;
+	color: #fff;
+	/* 문제)image/center폴더에 있는 t_back.jpg 이미지 파일을 제목 th 배경 이미지로 설정해서
+	정중앙에 x축으로 반복해서 나오게 한다.*/
+	
+	background-image: url(../images/center/t_back.jpg);
+	background-repeat: repeat-x;
+	background-position: center center;
+}
+#notice td{
+	/*문제) 수평중앙정렬하고 상하 안여백 6px, 좌우 안여백 0픽셀, 밑줄 점선 선색상 코드는  #999로 처리*/
+	text-align:center;
+	padding: 6px 0px;
+	border-bottom: 1px dotted #999;
+}
+#notice .left{
+	text-align: left;
+	padding-left: 14px;
+}
+#notice .tno{
+	border-top-left-radius : 5px; /*css3에서 새롭게 추가된 속성으로 좌상단 테두리를 둥글게 처리*/
+	border-bottom-left-radius: 5px; /*css3에서 추가된 속성으로 좌하단 테두리를 둥글게 처리 */
+	width:50px;
+}
+#notice .ttitle{
+	width:400px;
+	letter-spacing:0.7em; /*글자간 간격*/
+	
+}
+#notice .twrite{width:100px;}
+#notice .tdate{width:50px;}
+#notice .tread{
+	border-top-right-radius: 5px; /*우상단 테두리를 둥글게(css3) */
+	border-bottom-right-radius: 5px; /*우하단 테두리를 둥글게(css3) */
+	width:50px;
+}
+#table_search{
+	float:right; margin:15px 0px 10px 0px; 
+}
+#table_search .input_box{
+	height:20px; width:200px; border:1px solid #333;
+	border-radius:10px;/*테두리를 둥글게(css3) */
+	background-color: #FEFDED;
+	padding:3px;
+}
+#table_search .btn{
+	padding: 2px;
+	margin: 0px 0px 0px 5px;
+	width: 90px;
+	height: 23px;
+	border: 1px solid #999;
+	border-radius: 10px;
+	color: #fff;
+	background-image: url(../images/center/t_back.jpg);
+	background-repeat: repeat-x;
+	background-position: center center;
+}
+#page_control{
+	margin-left: auto; margin-right: auto; /*div 레이아웃 수평 좌우 중앙 정렬*/
+	text-align: center;
+	margin:20px 0px 0px 0px;
+}
+#page_control a{/* 페이징 하이퍼링크 된곳 css적용 */
+	padding:2px 5px; text-decoration: none;
+	color:#333; margin:0px 5px;
+	
+}
+#page_control a:hover{/*페이징 하이퍼링크 된곳 마우스 오버시 css효과*/
+font-weight:bold; /*글자 진하게*/
+color:#F90;
+text-decoration: underline;/*밑줄선 생김*/
+}
+#notice tr:hover{
+	background-color: orange;
+	cursor:pointer;
+	cursor: hand; /* 마우스 포인터를 손가락 모양으로 바뀌게 함*/ 
+}
