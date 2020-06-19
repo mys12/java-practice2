@@ -1,0 +1,10 @@
+#root{
+	-fx-padding:10; /* 상하좌우 안여백 지정 */
+}
+#welcome-text{
+	-fx-font-size:35; /*글자 크기*/
+	-fx-font-family:"Arial Black";/*글꼴 지정*/
+	-fx-font-weight:bold;/*글자 진하게*/
+	-fx-text-fill:linear-gradient(to bottom,blue,white);
+	/* 글자색을 아래로 파란색부터 흰색까지 선형 그라디언트 적용 */
+}

@@ -1,0 +1,20 @@
+#vbox1{
+	-fx-border-color:red; /*경계선 색*/
+	-fx-border-width:3;/*경계선굵기*/
+}
+#vbox2{
+	-fx-border-color:red;
+	-fx-border-width:3;
+	-fx-border-radius:20;/*둥근모서리*/
+}
+#vbox3{
+	-fx-border-insets:0,10,20;/*내부 경계선의 위치*/
+    -fx-border-color:red,yellow,blue;
+    -fx-border-width:2,3,5;	
+}
+
+
+
+
+
+

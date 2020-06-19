@@ -1,0 +1,15 @@
+TextField:focused { /* 포커스를 가졌을 때 */
+	-fx-border-color: blue; /*테두리 색을 파랑 */
+	-fx-background-color: yellow; /*배경색*/
+}
+
+Button:hover { /* 버튼 위 마우스 오버했을때 */
+	-fx-border-color: blue;
+	-fx-background-color: yellow;
+}
+Button:pressed{/*버튼을 눌렀을때*/
+	-fx-border-color:blue;
+	-fx-background-color:red;
+	
+	
+}

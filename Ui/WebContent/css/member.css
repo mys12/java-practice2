@@ -1,0 +1,65 @@
+@charset "UTF-8";
+#sub_img_member{
+	width:971px;
+	height:179px;
+	background-image:url(../images/member/sub_back.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#join{
+	margin:10px 0px 0px 0px; width:670px;
+	
+}
+#join fieldset{
+	border:none; /*그룹 경계선 제거*/ padding 10px 0px 20px 5px;
+}
+#join legend{
+	font-size: 20px; border-bottom: 1px dotted #666; /*밑줄점선*/
+	width:600px; padding:6px 0px;
+}
+#join label{
+	width:140px; float:left; margin:5px 0px;
+	
+}
+#join input{
+	margin:5px 0px; border: 1px solid #999; /*입력박스 테두리 모양 설정*/
+	background-color: #FCFDEA; /*입력박스 배경색을 설정하여 다른부분과 구분*/
+	padding:2px;
+}
+#join .id{
+	width:100px; height:18px;
+}
+#join .dup{
+	width:120px; height:23px; border-radius: 8px; border: none;
+	margin: 0px 0px 0px 5px;
+	font-weight:bold; /*글자 진하게 */
+	color: #FFF;
+	background-image:url(../images/member/dup.jpg);
+	background-repeat: repeat-x;
+	background-position: center center; 
+}
+#join .pass{width:150px; height: 18px;}
+#join .nick{width:80px; height:18px;}
+#join .email{width:200px; height:18px;}
+#join .address{width:300px; height:18px;}
+#join .phone{width:150px; height:18px;}
+
+#buttons{margin:20px 0px 0px 0px;}
+#buttons .submit, #buttons .cancel{
+	height:30px; width: 150px; border:1px solid #666;
+	border-radius:10px;
+	box-shadow:3px 3px 2px #ccc; /* css3에서 추가된 속성으로 그림자 효과 */
+	font-size:14px;
+}
+#buttons .submit{
+	background-image: url(../images/member/submit_back.jpg);
+	background-repeat: repeat-x;
+	background-position: center center; color:#fff;
+}
+#buttons .cancel{
+	margin:0px 0px 0px 20px;
+	background-image: url(../images/member/cancel_back.jpg);
+	background-repeat: repeat-x;
+	background-position: center center;
+}
